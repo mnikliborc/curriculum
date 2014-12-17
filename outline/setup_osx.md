@@ -2,12 +2,12 @@ OS X Setup
 ==========
 
 * Start a terminal
-* Install Git
-* Configure Git
+* [Optional] Install Git
+* [Optional] Configure Git
 * Make sure Java is installed
 * Get Leiningen installed
 * Get LightTable installed
-* Get Heroku installed
+* [Optional] Get Heroku installed
 * Test installation
 
 ## Starting a terminal
@@ -22,13 +22,13 @@ The prompt (where you will type your commands) may look different: it usually sh
 
 For the rest of this setup, I will tell you to run commands in your terminal. When I say that, I mean "type the command into the terminal and press the Return key."
 
-## Install Git
+## [Optional] Install Git
 
 To see if you have git installed type in: `git --version` If you have `git version 1.9.3 (Apple Git-50)` or above you should be fine.
 
 If not, visit [git-scm.com](http://git-scm.com/). Click "Downloads for Mac". The Git installer may begin downloading automatically. If it does not, click the manual download link. Once the download has finished, open __~/Downloads__ in Finder and double-click the downloaded file (named something like __git-2.0.1-intel-universal-snow-leopard.dmg__). This will mount the disk image and open a new Finder window. Double-click the installer package (named something like __git-2.0.1-intel-universal-snow-leopard.pkg__). You may be told that the installer can't be opened because it is from an unidentified developer. If so, click "OK", then right-click (or control-click) the file and select "Open" from the contextual menu. You may be warned again that the installer is from an unidentified developer, but this time you'll have the option to click "Open". Do so. This will launch the installer. Follow its directions, and enter your password when prompted to do so. Once you have finished this process it's safe to unmount the disk image (by clicking the eject button in the Finder sidebar) and delete the file from the Downloads folder.
 
-## Configure Git
+## [Optional] Configure Git
 
 If you've used Git before then you should already have user.name and user.email configured.
 Otherwise, type this in the terminal:
@@ -98,7 +98,7 @@ prompt. Click "Open".
 
 <img alt="Light Table first-run dialog" src="img/os_x/light-table-first-run-dialog@2x.png" width="595" height="290">
 
-## Getting setup with Heroku
+## [Optional] Getting setup with Heroku
 
 Heroku is the tool we will use in order to put your application online where others can see it.
 

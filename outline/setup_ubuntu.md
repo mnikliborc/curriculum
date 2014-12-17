@@ -5,7 +5,7 @@ Ubuntu Setup
 * Make sure Java is installed
 * Get Leiningen installed
 * Get Light Table installed
-* Get Heroku installed (includes Git)
+* [Optional] Get Heroku installed (includes Git)
 * Test installation
 
 ## Starting a terminal
@@ -84,7 +84,7 @@ You should see a window like this:
 Name the launcher LightTable. Type the path to the command `/usr/local/bin/LightTable/LightTable`. Click the icon. The LightTable icon can be found at `/usr/local/bin/LightTable/core/img/lticon.png`.
 
 
-## Getting setup with Heroku
+## [Optional] Getting setup with Heroku
 
 Heroku is the tool we will use in order to put your application online where others can see it.
 
@@ -108,7 +108,7 @@ If you do not see this link on your dashboard, you can download the toolbelt fro
 
 This will take you too a page with a terminal command. Copy this command and paste it into your terminal. Once the Heroku Toolbelt is installed, run the command `heroku login`. You will be prompted for your email and password on Heroku. If you are prompted to create an SSH key, say yes. If you enter them and the command ends successfully, congratulations!
 
-## Configuring Git
+## [Optional] Configuring Git
 
 If you've used Git before then you should already have user.name and user.email configured.
 Otherwise, type this in the terminal:

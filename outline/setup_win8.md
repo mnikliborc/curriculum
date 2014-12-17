@@ -5,7 +5,7 @@ Windows 8 Setup
 * Get Java installed
 * Get Leiningen installed
 * Get Light Table installed
-* Get Heroku installed (includes Git)
+* [Optional] Get Heroku installed (includes Git)
 * Test installation
 
 ## Starting a command prompt
@@ -59,7 +59,7 @@ Unzip this file (either by finding it in your Downloads folder and double-clicki
 
 Inside the Light Table directory, there is an application called Light Table. Right-click it and choose "Pin to Start Menu" so you can start it more quickly.
 
-## Get setup with Heroku
+## [Optional] Get setup with Heroku
 
 Heroku is the tool we will use in order to put your application online where others can see it.
 

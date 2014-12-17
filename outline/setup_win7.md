@@ -5,7 +5,7 @@ Windows 7 Setup
 * Get Java installed
 * Get Leiningen installed
 * Get Light Table installed
-* Get Heroku installed (includes Git)
+* [Optional] Get Heroku installed (includes Git)
 * Test installation
 
 ## Starting a command prompt
